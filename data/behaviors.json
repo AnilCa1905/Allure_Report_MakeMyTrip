@@ -1,5 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
-  "name" : "behaviors"
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User should be able to load url",
+    "uid" : "6b5090cfd008d654",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669912384570,
+      "stop" : 1669912392283,
+      "duration" : 7713
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-108.0.5359.72" ]
+  } ]
 }
