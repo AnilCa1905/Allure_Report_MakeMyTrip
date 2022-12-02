@@ -24,7 +24,7 @@ jobs:
            - name: Executing the Test Scripts
              run: npm run makeMyTrip
            - name: Deploy report to Github Pages
-              if:always()
+             if: always()
              uses: peaceiris/actions-gh-pages@v2
              env:
                PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
