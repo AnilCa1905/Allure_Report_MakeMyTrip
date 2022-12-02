@@ -21,13 +21,19 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
+      - name: Install Dependencies
+        run: npm install 
+      - name: setup Latest Chrome Driver
+        run: npm run chromeDriverUpdate
+      - name: Executing the Test Scripts
+        run: npm run makeMyTrip  
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
         #id: allure-report
         with:
-          allure_results: allure-results
+          allure_results: test\.artifacts\allure-report
           #gh_pages: gh-pages
           #allure_report: test\.artifacts\allure-report
           allure_history: allure-history
@@ -39,4 +45,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+          PUBLISH_DIR: test/.artifacts/allure-report
