@@ -26,8 +26,8 @@ jobs:
         cache: 'npm'
 
     - run: npm ci
-    - run: npm run chromrDriverUpdate
-    - run:  npm run makeMyTrip
+    - run: npm run chromeDriverUpdate
+    - run: npm run makeMyTrip
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
