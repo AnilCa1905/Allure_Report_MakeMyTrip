@@ -1,16 +1,17 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
       "name" : "User should be able to load url",
-      "uid" : "8f1f9dbe49cb4cf9",
+      "uid" : "f2af998b973493fc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1670219494618,
-        "stop" : 1670219500242,
-        "duration" : 5624
+        "start" : 1670220126109,
+        "stop" : 1670220130812,
+        "duration" : 4703
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,6 +22,5 @@
       "parameters" : [ "chrome-107.0.5304.121" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ],
-  "name" : "timeline"
+  } ]
 }

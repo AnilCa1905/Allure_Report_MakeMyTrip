@@ -1,12 +1,12 @@
 {
-  "uid" : "8f1f9dbe49cb4cf9",
+  "uid" : "f2af998b973493fc",
   "name" : "User should be able to load url",
   "fullName" : "Work flow for Make my trip.User should be able to load url",
   "historyId" : "1ce883c6ed47c7d5bc54e963ce06a95f",
   "time" : {
-    "start" : 1670219494618,
-    "stop" : 1670219500242,
-    "duration" : 5624
+    "start" : 1670220126109,
+    "stop" : 1670220130812,
+    "duration" : 4703
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4257217e430aa3f3",
+      "uid" : "dc1eeae9f6f53c0f",
       "name" : "Screenshot",
-      "source" : "4257217e430aa3f3.png",
+      "source" : "dc1eeae9f6f53c0f.png",
       "type" : "image/png",
-      "size" : 124421
+      "size" : 124485
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8f1f9dbe49cb4cf9.json",
+  "source" : "f2af998b973493fc.json",
   "parameterValues" : [ "chrome-107.0.5304.121" ]
 }
