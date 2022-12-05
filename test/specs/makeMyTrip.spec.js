@@ -10,6 +10,6 @@ describe('Work flow for Make my trip', () => {
 		await homePage.openUrl();
 		await expect(browser).toHaveUrl('https://www.makemytrip.com/');
 		expect(await homePage.$homePageHeader().isDisplayed()).toBe(true, 'Expect homepage header to be displayed');
-		await browser.pause(500);
+		
 	});
 });
