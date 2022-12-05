@@ -4,13 +4,13 @@
     "name" : "Work flow for Make my trip",
     "children" : [ {
       "name" : "User should be able to load url",
-      "uid" : "157b9350664ee86",
+      "uid" : "b1b846ad7b22a2af",
       "parentUid" : "5ecde5e4955b3a7567ea1c6260057859",
       "status" : "passed",
       "time" : {
-        "start" : 1670237648805,
-        "stop" : 1670237656236,
-        "duration" : 7431
+        "start" : 1670239970862,
+        "stop" : 1670239976553,
+        "duration" : 5691
       },
       "flaky" : false,
       "newFailed" : false,
