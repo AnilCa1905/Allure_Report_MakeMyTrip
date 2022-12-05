@@ -1,17 +1,16 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "Work flow for Make my trip",
     "children" : [ {
       "name" : "User should be able to load url",
-      "uid" : "f2af998b973493fc",
+      "uid" : "8792746d197a0a28",
       "parentUid" : "1bc46b9c38ba8eccf268430f0c5cd075",
       "status" : "passed",
       "time" : {
-        "start" : 1670220126109,
-        "stop" : 1670220130812,
-        "duration" : 4703
+        "start" : 1670220274141,
+        "stop" : 1670220279049,
+        "duration" : 4908
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,5 +21,6 @@
       "parameters" : [ "chrome-107.0.5304.121" ]
     } ],
     "uid" : "1bc46b9c38ba8eccf268430f0c5cd075"
-  } ]
+  } ],
+  "name" : "suites"
 }
