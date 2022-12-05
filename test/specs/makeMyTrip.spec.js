@@ -12,4 +12,12 @@ describe('Work flow for Make my trip', () => {
 		expect(await homePage.$homePageHeader().isDisplayed()).toBe(true, 'Expect homepage header to be displayed');
 		
 	});
+
+	it('User should be able to click Holiday icon', async () => {
+		await homePage.$holiday();
+		await expect(browser).toHaveUrl('https://www.makemytrip.com/');
+		expect(await homePage.$homePageHeader().isDisplayed()).toBe(true, 'Expect homepage header to be displayed');
+		
+	});
+	
 });

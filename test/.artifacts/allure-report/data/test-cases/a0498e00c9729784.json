@@ -1,12 +1,12 @@
 {
-  "uid" : "8a04362e4690e07",
-  "name" : "User should be able to load url",
-  "fullName" : "Work flow for Make my trip.User should be able to load url",
-  "historyId" : "5e38e88e19604294f145ee2fb0aaaac",
+  "uid" : "a0498e00c9729784",
+  "name" : "User should be able to click Holiday icon",
+  "fullName" : "Work flow for Make my trip.User should be able to click Holiday icon",
+  "historyId" : "eecee9810a69809b54f34004818bb095",
   "time" : {
-    "start" : 1669957353619,
-    "stop" : 1669957361598,
-    "duration" : 7979
+    "start" : 1670236879899,
+    "stop" : 1670236880381,
+    "duration" : 482
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,15 +22,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5fa246237c77b919",
+      "uid" : "53d3f2d3ca1ac16e",
       "name" : "Screenshot",
-      "source" : "5fa246237c77b919.png",
+      "source" : "53d3f2d3ca1ac16e.png",
       "type" : "image/png",
-      "size" : 303320
+      "size" : 319965
     } ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : true,
+    "stepsCount" : 0,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false
   },
@@ -52,7 +52,7 @@
     "value" : "Work flow for Make my trip"
   }, {
     "name" : "testMethod",
-    "value" : "User should be able to load url"
+    "value" : "User should be able to click Holiday icon"
   }, {
     "name" : "package",
     "value" : "Work flow for Make my trip"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8a04362e4690e07.json",
+  "source" : "a0498e00c9729784.json",
   "parameterValues" : [ "chrome-108.0.5359.72" ]
 }
