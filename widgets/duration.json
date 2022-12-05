@@ -1,10 +1,10 @@
 [ {
-  "uid" : "43a99d132695aff3",
+  "uid" : "54fd931ccef066bc",
   "name" : "User should be able to load url",
   "time" : {
-    "start" : 1670225651542,
-    "stop" : 1670225657062,
-    "duration" : 5520
+    "start" : 1670231275523,
+    "stop" : 1670231280358,
+    "duration" : 4835
   },
   "status" : "passed",
   "severity" : "normal"
