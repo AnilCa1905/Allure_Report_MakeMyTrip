@@ -27,7 +27,7 @@ jobs:
         run: npm run makeMyTrip  
 
       - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+        uses: AnilCa1905/simple-elf-Repo@master
         if: always()
         #id: allure-report
         with:
@@ -39,7 +39,7 @@ jobs:
 
       - name: Deploy report to Github Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@v2
+        uses: AnilCa1905/Peaceiris-gh_pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
