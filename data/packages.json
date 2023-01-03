@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Work flow for Make my trip",
+    "children" : [ {
+      "name" : "User should be able to load url",
+      "uid" : "3a2805fc8d9b64fd",
+      "parentUid" : "5ecde5e4955b3a7567ea1c6260057859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672743140807,
+        "stop" : 1672743146389,
+        "duration" : 5582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-108.0.5359.98" ]
+    } ],
+    "uid" : "5ecde5e4955b3a7567ea1c6260057859"
+  } ]
+}
