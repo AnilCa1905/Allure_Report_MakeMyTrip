@@ -1,15 +1,14 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "User should be able to load url",
-    "uid" : "3a2805fc8d9b64fd",
+    "uid" : "d6efc117e4f1c13c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1672743140807,
-      "stop" : 1672743146389,
-      "duration" : 5582
+      "start" : 1672810130377,
+      "stop" : 1672810136981,
+      "duration" : 6604
     },
     "flaky" : false,
     "newFailed" : false,
@@ -18,5 +17,6 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-108.0.5359.98" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }
